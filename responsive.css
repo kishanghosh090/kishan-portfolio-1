@@ -1,0 +1,81 @@
+@media (min-width: 1110px) {
+    .burger {
+        display: none;
+    }
+}
+
+@media (max-width: 1118px) {
+    .navbar {
+        position: sticky;
+        flex-direction: column;
+        height: 34rem;
+        transition: all 0.4s ease-out;
+     }  
+
+    .nav-list {
+        flex-direction: column;
+    }
+    .h-nav{
+        height: 2px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .firstsection{
+        height: 68vh;
+        width: 100%;
+    }
+
+    .box-main {
+        height: 68vh;
+        flex-direction: column-reverse;
+        max-width: 95%;
+    }
+    .second-half img {
+        height: 110px;
+        width: 110px;
+    }
+    .hello {
+        font-size: 35px;
+    }
+    .name {
+        font-size: 46px;
+    }
+    .first-text{
+        font-size: 26px;
+    }
+    .more_about {
+        font-size: 25px;
+    }
+    .buttons button {
+        margin-left: 16px;
+        font-size: 16px;
+    }
+    .main-contact{
+        height: 50vh;
+        width: 90%;
+    }
+    .Contactform h1 {
+       font-size: 28px;
+    }
+    .Contactform form div input {
+        width: 51vw;
+        height: 5vh;
+        border-radius: 10px;
+    }
+    .btn-form {
+        padding: 8px;
+    }
+    .footer {
+        height: 22vh;
+        gap: 0rem
+    }
+    .logo-footer img {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+    .gihub-logo {
+        width: 24%;
+    }
+}

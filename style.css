@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(17 24 39);
+}
+
+.logo img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 4px solid white;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(31 41 55);
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+
+.nav-list {
+    width: 70%;
+    font-family: "Fira Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a {
+    color: #fff;
+}
+
+.nav-list li a:hover {
+    color: #bed539;
+}
+
+.rightNav {
+    width: 30%;
+    text-align: center;
+}
+
+.rightNav img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.burger {
+    position: absolute;
+    right: 5%;
+    top: 15px;
+}
+
+.burger img {
+    height: 25px;
+    width: 25px;
+}
+
+/* navbar end */
+
+/* animation */
+.container_animation .text {
+    position: relative;
+
+}
+
+.first-text:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(17 24 39);
+    border-left: 2px solid #fff;
+    animation: animate 4s steps(16) infinite;
+}
+
+@keyframes animate {
+
+    40%,
+    60% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+/* animation end */
+
+.firstsection {
+    height: 60vh;
+    background-color: rgb(17 24 39);
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin: auto;
+    height: 70%;
+}
+
+.first-half {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.hello {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Source Code Pro", monospace;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira sans', sans-serif;
+    color: #fff;
+}
+
+.about {
+    font-size: 40px;
+    color: rgb(147 51 234);
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.more_about {
+    font-size: 30px;
+    font-family: 'Fira sans', sans-serif;
+    margin-top: 23px;
+    color: rgb(156 163 175);
+}
+
+
+.btn-linkdin {
+    margin-top: 27px;
+    padding: 9px;
+    border-radius: 2rem;
+    border: none;
+    color: #fff;
+    font-size: 21px;
+    background-color: rgb(147 51 234);
+    cursor: pointer;
+}
+
+.btn-contact {
+    background-color: #fff;
+    border: 4px solid rgb(147 51 234);
+    color: rgb(147 51 234);
+    margin-top: 27px;
+    padding: 9px;
+    border-radius: 2rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: dodgerblue;
+    background-color: #fff;
+    box-shadow: 1.5px 1.5px 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.second-half {
+    width: 20%;
+}
+
+.second-half img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 5px solid white;
+    display: block;
+    margin: auto;
+}
+
+/* firstsection end */
+.contact {
+    margin: 0 20px;
+}
+
+.main-contact {
+    height: 60vh;
+    width: 60%;
+    margin: auto;
+    background-color: rgb(55 65 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px 5px rgba(255, 255, 255, 0.2);
+    gap: 1rem;
+}
+
+.Contactform {
+    font-family: 'Fira sans', sans-serif;
+    padding: 20px;
+}
+
+.Contactform h1 {
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+    color: #fff;
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(156 163 175);
+}
+
+.Contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Contactform form div input {
+    width: 25vw;
+    height: 3vh;
+    border-radius: 7px;
+    margin: 6px 0 0 0;
+    padding: 7px;
+    font-size: 15px;
+}
+
+#emailHelp {
+    font-size: 18px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.form-control {
+    height: 1.5rem;
+    width: 40%;
+    border-radius: 7px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    border: 3px solid rgb(147 51 234);
+    border-radius: 10px;
+}
+.btn-form {
+    padding: 8px;
+    width: 54%;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(147 51 234);
+    color: #fff;
+    font-size: 17px;
+    margin-top: 1rem;
+    /* margin: auto; */
+    border: 3px solid #fff;
+}
+.btn-form:hover {
+    background-color: #fff;
+    color: rgb(147 51 234);
+    box-shadow: 1px 1px 5px 2px #111111;
+}
+
+.lastsection {
+    background-color: rgb(167, 167, 236);
+}
+
+.footer {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+    background-color: rgb(31 41 55);
+}
+
+.logo-footer img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.gihub-logo {
+    width: 8%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.gihub-logo i {
+    font-size: 30px;
+    margin-left: 5px;
+}
