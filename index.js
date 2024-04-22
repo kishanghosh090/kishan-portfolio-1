@@ -18,6 +18,29 @@ const textLoad = () =>{
 textLoad();
 setInterval(textLoad, 16000);
 
+let boxex = document.querySelector(".mode-box-ex");
+let body = document.querySelector("body")
+
+// boxex.addEventListener("click", () =>{
+//     boxex.classList.toggle('mode-box-ex');
+// })
+body. style. backgroundColor = "white"
+
+boxex.addEventListener("click", () =>{
+    if(body. style. backgroundColor === "white"){
+        body. style. backgroundColor = "rgb(17 24 39)";
+        boxex.classList.toggle('mode-box-ex');
+        body. style. backgroundColor = "rgb(17 24 39)";
+        
+    }else{
+        body. style. backgroundColor = "rgb(17 24 39)";
+        boxex.classList.toggle('mode-box-ex');
+        body. style. backgroundColor = "white";
+       
+    }
+})
+
+
 
 let burger = document.querySelector('.burger');
 let navbar = document.querySelector('.navbar');

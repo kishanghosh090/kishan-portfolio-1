@@ -10,7 +10,8 @@
 }
 
 body {
-    background-color: rgb(17 24 39);
+    /* background-color: rgb(17 24 39); */
+    background-color: white;
 }
 
 .logo img {
@@ -57,11 +58,35 @@ body {
     text-align: center;
 }
 
-.rightNav img {
+/* .rightNav img {
     height: 50px;
     width: 50px;
     border-radius: 50%;
+} */
+.mode-button {
+    height: 29px;
+    width: 84px;
+    border-radius: 2rem;
+    /* background-color: aqua; */
+    padding-left: 1px;
+    padding-top: 1px;
+    border: 2px solid rgb(147 51 234);
+
 }
+
+.mode-box {
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    transition: all 0.39s ease-out;
+}
+
+.mode-box-ex {
+    /* position: absolute; */
+    margin-left: 54px;
+}
+
 
 .burger {
     position: absolute;
@@ -271,6 +296,7 @@ body {
     border: 3px solid rgb(147 51 234);
     border-radius: 10px;
 }
+
 .btn-form {
     padding: 8px;
     width: 54%;
@@ -283,6 +309,7 @@ body {
     /* margin: auto; */
     border: 3px solid #fff;
 }
+
 .btn-form:hover {
     background-color: #fff;
     color: rgb(147 51 234);
