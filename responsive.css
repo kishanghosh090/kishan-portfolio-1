@@ -9,7 +9,7 @@
         position: sticky;
         flex-direction: column;
         height: 34rem;
-        transition: all 0.4s ease-out;
+        transition: all 0.2s ease-out;
      }  
 
     .nav-list {
