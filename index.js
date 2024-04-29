@@ -1,3 +1,18 @@
+let fabars = document.querySelector(".fa-bars")
+let faxmark = document.querySelector(".fa-xmark")
+
+fabars.style.display = "inline"
+faxmark.style.display = "none"
+fabars.addEventListener("click" , () =>{
+    fabars.style.display = "none";
+    faxmark.style.display = "inline"
+})
+faxmark.addEventListener("click", () => {
+    faxmark.style.display = "none"
+    fabars.style.display = "inline"
+    
+})
+
 
 const text = document.querySelector(".first-text")
 const textLoad = () =>{
