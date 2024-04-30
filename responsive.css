@@ -21,6 +21,23 @@
     .v-class{
         opacity: 0;
     }
+    .rightNav{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .mode-button {
+        height: 29px;
+        width: 63px;
+        border-radius: 2rem;
+        /* background-color: aqua; */
+        padding-left: 1px;
+        padding-top: 1px;
+        border: 2px solid rgb(147 51 234);
+    }
+    .mode-box-ex {
+        margin-left: 33px;
+    }
     .firstsection{
         height: 68vh;
         width: 100%;
