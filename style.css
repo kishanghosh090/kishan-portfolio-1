@@ -69,7 +69,7 @@ body {
     height: 29px;
     width: 84px;
     border-radius: 2rem;
-    /* background-color: aqua; */
+    box-shadow: rgba(50, 50, 93, 0.3) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.9) 0px 18px 36px -18px inset;
     padding-left: 1px;
     padding-top: 1px;
     border: 2px solid #fff;
