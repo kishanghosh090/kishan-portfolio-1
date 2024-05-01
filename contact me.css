@@ -5,6 +5,13 @@
 body{
     background-color: rgb(17 24 39);
 }
+.contact-box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .main-contact{
     height: 80vh;
     width: 90%;

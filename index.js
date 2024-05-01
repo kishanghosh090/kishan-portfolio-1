@@ -35,12 +35,13 @@ setInterval(textLoad, 16000);
 
 let boxex = document.querySelector(".mode-box-ex");
 let body = document.querySelector("body")
+let firstsection = document.querySelector(".firstsection")
 
 // boxex.addEventListener("click", () =>{
 //     boxex.classList.toggle('mode-box-ex');
 // })
 body. style. backgroundColor = "white"
-
+// firstsection.style.backgroundColor = "rgb(17 24 39)"
 boxex.addEventListener("click", () =>{
     if(body. style. backgroundColor === "white"){
         body. style. backgroundColor = "rgb(17 24 39)";
