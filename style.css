@@ -199,7 +199,7 @@ body {
     color: rgb(156 163 175);
 }
 
-
+/* 
 .btn-linkdin {
     margin-top: 27px;
     padding: 9px;
@@ -226,10 +226,7 @@ body {
     color: dodgerblue;
     background-color: #fff;
     box-shadow: 1.5px 1.5px 5px 6px rgba(0, 0, 0, 0.2);
-}
-
-
-
+} */
 
 .social-icons a {
     display: inline-flex;
