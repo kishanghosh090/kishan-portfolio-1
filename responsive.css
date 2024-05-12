@@ -8,6 +8,8 @@
     .navbar {
         position: sticky;
         flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(10px);
         height: 34rem;
         transition: all 0.2s ease-out;
      }  
